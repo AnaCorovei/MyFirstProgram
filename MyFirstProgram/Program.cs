@@ -12,10 +12,10 @@ namespace MyFirstProgram
             Console.WriteLine("Acest program va calcula aria unei camere");
 
             Console.WriteLine("Introduceti latimea: ");
-            latime = int.Parse(Console.ReadLine()); //citire de la tastatura
+            latime = int.Parse(Console.ReadLine()); 
 
             Console.WriteLine("Introduceti lungimea: ");
-            lungime = int.Parse(Console.ReadLine()); //citire de la tastatura
+            lungime = int.Parse(Console.ReadLine()); 
 
             int ariaCamerei = latime * lungime;
 
